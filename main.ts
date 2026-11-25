@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 process.umask(0o022);
 
 const JOKE =
-  "My grandma asked me to fix her Wi-Fi, so I unplugged the router, waited ten seconds, and now I'm the family IT department forever.";
+  "I fixed my grandma's Wi-Fi by turning the router off and on, and now she calls me every Sunday at 7am because the TV remote \"feels slow\".";
 
 const chars = [...JOKE].length;
 if (chars < 1 || chars > 140 || JOKE.trim().length === 0) {
